@@ -1,0 +1,21 @@
+.main-content {
+    flex: 1;
+    background-color: white;
+    padding: 20px;
+}
+
+.module {
+    background: #F1FAEE;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 10px;
+}
+
+.module h2 {
+    color: #457B9D;
+}
+
+.module p {
+    color: #1D3557;
+}

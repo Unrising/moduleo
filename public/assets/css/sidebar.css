@@ -1,0 +1,36 @@
+
+.sidebar {
+    width: 20%;
+    background-color: #A8DADC;
+    padding: 20px;
+    min-height: calc(100vh - 80px); 
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar li {
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    transition: background 0.3s;
+}
+
+.sidebar li:hover {
+    background-color: #8EC5C9; /
+}
+
+.sidebar li i {
+    margin-right: 10px;
+    color: #1D3557;
+}
+
+.sidebar a {
+    text-decoration: none;
+    color: #1D3557;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+}

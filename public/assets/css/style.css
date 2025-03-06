@@ -1,0 +1,51 @@
+/* Police et Couleurs et display */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #F1FAEE;
+    color: #1D3557;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    margin: 0;
+}
+/* Boutons Modernes */
+.button-primary {
+    background-color: #E63946;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+
+.button-primary:hover {
+    background-color: #C5303C;
+}
+/* Container */
+
+.container {
+    display: flex;
+    flex: 1;
+    min-height: calc(100vh - 80px); 
+}
+
+/* Main */
+.main-content {
+    flex: 1;
+    background-color: white;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start; 
+    align-items: flex-start;
+}
+
+/* Animation de Chargement */
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+.main-content {
+    animation: fadeIn 0.5s ease-in-out;
+}
