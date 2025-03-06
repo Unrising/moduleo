@@ -1,0 +1,13 @@
+# Fichiers sensibles
+config/database.php
+sessions/
+vendor/
+.env
+
+# XAMPP
+.DS_Store
+Thumbs.db
+
+# Logs & caches
+logs/
+cache/

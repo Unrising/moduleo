@@ -1,0 +1,22 @@
+{
+    "name": "vendor/moduleo",
+    "description": "Moduleo",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Vendor\\Moduleo\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Michael",
+            "email": "michael.picard14@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "catfan/medoo": "^2.1",
+        "phpmailer/phpmailer": "^6.9"
+    }
+}
