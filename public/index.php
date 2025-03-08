@@ -24,3 +24,4 @@ if (!in_array($module, $allowed_modules)) {
 
 </body>
 </html>
+ 
